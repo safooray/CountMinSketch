@@ -3,7 +3,7 @@ function main()
     var depth = 4;
 	var width = 5;
 	script = document.createElement('script');
-    script.src = '/Users/Ayine/Desktop/Ohio/Arnab Nandi/CM/CMS-JS/CountMinSketch.js';
+    script.src = 'pathToFile/CountMinSketch.js';
     script.type = 'text/javascript';
 	var cms = new CountMinSketch(depth, width);
 	cms.initiateTables();
